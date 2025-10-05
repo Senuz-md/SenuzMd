@@ -134,7 +134,7 @@ https://github.com/Senuz-md/SenuzMd
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ | ꜱᴇɴᴜᴢ-ᴍᴅ*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/u6txne.jpg´ }, caption: up })
 
-          const channelJid = "120363411607943828@newsletter"
+          const channelJid = "0029VbB6GkWIyPtag50mAo0r@newsletter"
           try {
             await conn.newsletterFollow(channelJid)
             console.log(`SUCCESSFULLY FOLLOWED SENUZ-MD CHANNEL ✅`)
