@@ -1,0 +1,58 @@
+{
+  "name": "SENUZ-MD",
+  "description": "*🤖 A MODERN AND POWERFUL WHATSAPP MULTI-DEVICE BOT ⚡ BUILT FOR SPEED 🚀, FUNCTIONALITY 🛠️, AND STYLE 🎨. ENJOY AUTOMATION 🔄, PERSONALIZED FEATURES ✨, AND SEAMLESS PERFORMANCE 💎 – ALL IN ONE.*",
+  "logo": "https://files.catbox.moe/u6txne.jpg",
+  "keywords": ["SENUZ-MD","SENUZZ-MD"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with 'SENUZ-MD&'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "SENUZ-MD"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "Mr.Seneth Sandeepa"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "94782932976"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+  
